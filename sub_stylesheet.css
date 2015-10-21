@@ -178,3 +178,21 @@ a[href="#s"]:active::after,
 .md p > a[href="#s"]:active::after {
 	color: #fff;
 }
+
+
+/*
+---------------------
+Most things flair related
+---------------------
+*/
+
+/* flair selection drop down */
+.flairselector.drop-choices.active {
+    border: 0;
+    box-shadow: none;
+}
+
+/* User Flair */
+.flair {
+    border: 1px solid slategray;
+}
